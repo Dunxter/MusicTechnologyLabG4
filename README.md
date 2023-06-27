@@ -5,9 +5,9 @@ It aims to create a tool for musicologists, musicians and enthusiasts alike to i
 
 This will be achieved through the training of a ML predictive model that will be able to classify each instrument, ultimately creating a graphical representation of the in and outs of each instrument through the length of a performance.
 
-In order to use this model you must follow the following steps:
+In order to build this model yourself you must follow the following steps:
 
-  1) Download and execute the code Install_dataset.ipynb in jupyter notebook  to obtain the saraga1.5_carnatic dataset (16.2 GB) using the corresponding functions of the mir-data library. The download might take a long time depending on the connection. (If you already have the dataset you can skip this step)
-  2) Download and run step by step the Dataset_Creation.ipynb code to process the saraga1.5_carnatic dataset to separate it into .wav chunks and generate the metadata.csv file where we store the chunk information which indicates which type of instruments appear and which do not.
-  3) Download and execute step by step the code Feature_Extraction.ipynb to extarct the features from the chunks in a .csv format (If you already have a file with the features of your dataset in the corresponding format this step is not necessary).
-  4) Download and run step by step the Modelling.ipynb code to create a ML model for each instrument and see the results.
+  1) Download and execute the Install_dataset.ipynb jupyter notebook to to obtain the saraga1.5_carnatic dataset (16.2 GB) using the corresponding functions of the mir-data library. The download might take a long time depending on the connection. (If you already have access to the dataset you may skip this step).
+  2) Download and run step by step the Dataset_Creation.ipynb notebook to build our dataset, using performances from saraga1.5_carnatic, which will be divided into small data/audio chunks and tagged by identifying silent regions for each instrument. These chunks and their respective instrument presence indicators will be referenced in a metadata dataframe (metadata.csv).
+  4) Download and run all the Feature_Extraction.ipynb notebook to extract the features from the audio chunks in a dataframe format (features.csv)
+  5) Download and execute the Modelling.ipynb notebook to build and test the models for each instrument.
