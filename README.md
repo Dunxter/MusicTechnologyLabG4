@@ -10,4 +10,4 @@ In order to use this model you must follow the following steps:
   1) Download and execute the code Install_dataset.ipynb in jupyter notebook  to obtain the saraga1.5_carnatic dataset (16.2 GB) using the corresponding functions of the mir-data library. The download might take a long time depending on the connection. (If you already have the dataset you can skip this step)
   2) Download and run step by step the Dataset_Creation.ipynb code to process the saraga1.5_carnatic dataset to separate it into .wav chunks and generate the metadata.csv file where we store the chunk information which indicates which type of instruments appear and which do not.
   3) Download and execute step by step the code Feature_Extraction.ipynb to extarct the features from the chunks in a .csv format (If you already have a file with the features of your dataset in the corresponding format this step is not necessary).
-  4) Download and run step by step the Modelling.ipynb code to create a ML model and see the results.
+  4) Download and run step by step the Modelling.ipynb code to create a ML model for each instrument and see the results.
