@@ -35,7 +35,7 @@ After installing the dependencies, you can now build the model yourself. To do s
 
   Extracts the features from the audio chunks in a dataframe format (features.csv).
  
- 4) **Add_Instruments_To_Csv.ipynb**:
+  4) **Add_Instruments_To_Csv.ipynb**:
 
   Adds a column to the features.csv dataframe with the instrument combination of each sample (0 for none of them, 1 for vocal only... 7 for all of them), so we later can swiftly create random sample sizes with equally represented instrument combinations.
 
@@ -47,6 +47,11 @@ After installing the dependencies, you can now build the model yourself. To do s
 Due to the limitations we had during this course, we haven't been able to complete all the desired goals of this project. 
 
 ## Authors
+
+- [Guillem Gauchia](https://github.com/GuillemGauchia)
+- [Àlex Herrero](https://github.com/AlexHerreroDiaz)
+- [Roddie McGuiness](https://github.com/Roddi01)
+- [Gerard San Miguel](https://github.com/Dunxter)
 
 ## License
 Distributed under the GPLv3 License. See [LICENSE](LICENSE) for more information.
