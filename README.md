@@ -1,5 +1,5 @@
 # ICCM: Instrument Classification in Carnatic Music
-Instrument Classification in Carnatic Music (ICCM) is a project developed for the Music Technology Lab optative course, at Universitat Pompeu Fabra.
+Instrument Classification in Carnatic Music (ICCM) is a project developed for the Music Technology Lab optional course, at Universitat Pompeu Fabra.
 
 It aims to create a tool for musicologists, musicians and enthusiasts alike to identify the presence of some of the main instruments found in a Carnatic music performance (human voice, violin, mridangam).
 
@@ -25,7 +25,7 @@ After installing the dependencies, you can now build the model yourself. To do s
 ## Procedure Details 
   1) **Install_dataset.ipynb**:
 
-  Obtains the saraga1.5_carnatic dataset (16.2 GB) using the corresponding functions of the mir-data library. The download might take a long time depending on the connection. (If you already have access to the dataset you may skip this step).
+  Obtains the saraga1.5_carnatic dataset (16.2 GB) using the corresponding functions of the mir-data library. The download might take a long time depending on the connection. (If you already have access to the dataset, you may skip this step).
 
   2) **Dataset_Creation.ipynb**:
 
@@ -44,7 +44,7 @@ After installing the dependencies, you can now build the model yourself. To do s
   Trains and tests the Gradient Boosting Classifier models for each instrument.
 
 ## Future Improvements
-Due to the limitations we had during this course, we haven't been able to complete all the desired goals of this project. 
+Due to the limitations we had during this course, we haven't been able to complete the final result of this project, where an user would have been able to upload a carnatic music performance of their choice through a UI. A graphical representation of the in and outs of each instrument through the length of a performance would be displayed together with a audio player, so the user could test the result. [Here's an interactive prototype we made of the UI using Figma.](https://www.figma.com/proto/0VVCtlpFd2Nvckg7WiN1Eb/MTL--UI-Mockup?page-id=0%3A1&type=design&node-id=2-3&viewport=267%2C448%2C0.34&scaling=min-zoom&starting-point-node-id=2%3A3)
 
 ## Authors
 
