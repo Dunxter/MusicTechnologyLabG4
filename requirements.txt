@@ -1,3 +1,4 @@
+essentia==2.1b6.dev1034
 ipython==8.13.2
 librosa==0.8.1
 matplotlib==3.7.1
