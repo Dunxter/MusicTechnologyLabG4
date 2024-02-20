@@ -46,6 +46,16 @@ After installing the dependencies, you can now build the model yourself. To do s
 ## Future Improvements
 Due to the limitations we had during this course, we haven't been able to complete the final result of this project, where an user would have been able to upload a carnatic music performance of their choice through a UI. A graphical representation of the in and outs of each instrument through the length of a performance would be displayed together with a audio player, so the user could test the result. [Here's an interactive prototype we made of the UI using Figma.](https://www.figma.com/proto/0VVCtlpFd2Nvckg7WiN1Eb/MTL--UI-Mockup?page-id=0%3A1&type=design&node-id=2-3&viewport=267%2C448%2C0.34&scaling=min-zoom&starting-point-node-id=2%3A3)
 
+## Development Documents
+[This PDF file](CompilationofDocuments&WeeklyReports.pdf) details the development process undertaken for this project, and it contains the following documents:
+1) Project Plan
+2) State of the art
+3) Software development tools
+4) Software requirments specification
+5) Ethical Considerations
+6) Evaluation
+7) Weekly reports (for each member)
+
 ## Authors
 
 - [Guillem Gauchia](https://github.com/GuillemGauchia)
